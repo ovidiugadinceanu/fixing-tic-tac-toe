@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="script.js"
+    ></script>
+  </head>
+
+  <body>
+    <table border="0">
+      <td>
+        <table border="0">
+          <tr>
+            <td style="text-align: center; border: none"></td>
+            <td style="text-align: center; border: none">1</td>
+            <td style="text-align: center; border: none">2</td>
+            <td style="text-align: center; border: none">3</td>
+          </tr>
+          <tr>
+            <td style="text-align: center; border: none">A</td>
+            <td>
+              <a href="javascript:Move('A1')"
+                ><img
+                  src="blank.jpg"
+                  border="1"
+                  height="100"
+                  width="100"
+                  id="A1"
+              /></a>
+            </td>
+            <td>
+              <a href="javascript:Move('A2')"
+                ><img
+                  src="blank.jpg"
+                  border="1"
+                  height="100"
+                  width="100"
+                  id="A2"
+              /></a>
+            </td>
+            <td>
+              <a href="javascript:Move('A3')"
+                ><img
+                  src="blank.jpg"
+                  border="1"
+                  height="100"
+                  width="100"
+                  id="A3"
+              /></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center; border: none">B</td>
+            <td>
+              <a href="javascript:Move('B1')"
+                ><img
+                  src="blank.jpg"
+                  border="1"
+                  height="100"
+                  width="100"
+                  id="B1"
+              /></a>
+            </td>
+            <td>
+              <a href="javascript:Move('B2')"
+                ><img
+                  src="blank.jpg"
+                  border="1"
+                  height="100"
+                  width="100"
+                  id="B2"
+              /></a>
+            </td>
+            <td>
+              <a href="javascript:Move('B3')"
+                ><img
+                  src="blank.jpg"
+                  border="1"
+                  height="100"
+                  width="100"
+                  id="B3"
+              /></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center; border: none">C</td>
+            <td>
+              <a href="javascript:Move('C1')"
+                ><img
+                  src="blank.jpg"
+                  border="1"
+                  height="100"
+                  width="100"
+                  id="C1"
+              /></a>
+            </td>
+            <td>
+              <a href="javascript:Move('C2')"
+                ><img
+                  src="blank.jpg"
+                  border="1"
+                  height="100"
+                  width="100"
+                  id="C2"
+              /></a>
+            </td>
+            <td>
+              <a href="javascript:Move('C3')"
+                ><img
+                  src="blank.jpg"
+                  border="1"
+                  height="100"
+                  width="100"
+                  id="C3"
+              /></a>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>
+              <input type="text" size="5" id="player1" value="0" disabled />
+            </td>
+            <td>Player1</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" size="5" id="player2" value="0" disabled />
+            </td>
+            <td>Player2</td>
+          </tr>
+          <tr>
+            <td><input type="text" size="5" id="ties" value="0" disabled /></td>
+            <td>Ties</td>
+          </tr>
+        </table>
+      </td>
+    </table>
+    <br />
+    <input type="button" value="Play Again" onClick="playAgain();" />
+  </body>
+</html>
